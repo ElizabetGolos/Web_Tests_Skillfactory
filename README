@@ -1,0 +1,30 @@
+
+Preconditions: opened "https://skillfactory.ru/"
+Test1-Test6 - checking the transition to the corresponding pages in the main menu of the site
+
+Test7 - sign up for a course
+    Steps:
+    1. Click on button "Тестрование"
+    2. click on banner named "QA-инженер на Java"
+    3. on the newly opened tab click button "Записаться на курс"
+    4. input name "Голос Элизабет"
+    5. input e-mail "goloseliz@gmail.com"
+    6. input phone number "(999) 999-99-99"
+    7. click submit
+
+ Test8 -send contact
+    Steps:
+    1. Find form for send contacts
+    2. input name "Голос Элизабет"
+    3. input e-mail "goloseliz@gmail.com"
+    4. input phone number "(999) 999-99-99"
+    5. click submit
+
+ Test9 - get a consultation
+    Steps:
+     1. click on banner named "IT-специалист с нуля"
+     2. on the newly opened tab click button "Получить консультацию"
+     3. input name "Голос Элизабет"
+     4. input e-mail "goloseliz@gmail.com"
+     5. input phone number "(999) 999-99-99"
+     6. click submit
