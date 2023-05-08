@@ -74,7 +74,7 @@ Test7 - sign up for a course
     Steps:
       1. Find form for send contacts
       2. input name "Голос Элизабет"
-      3. input e-mail "123456"
+      3. input e-mail "12345"
       4. input phone number "(999) 999-99-99"
       5. click submit
 
@@ -82,6 +82,23 @@ Test7 - sign up for a course
     Steps:
       1. Find form for send contacts
       2. input name "Голос Элизабет"
-      3. input e-mail "123456"
+      3. input e-mail "12345"
       4. input phone number "(999) 999-99-99"
       5. click submit
+
+Test18 - Negative test for phone number field
+    Steps:
+      1. Find form for send contacts
+      2. input name "Голос Элизабет"
+      3. input e-mail "goloseliz@gmail.com"
+      4. input phone number "(000) 000-00-00"
+      5. click submit
+
+
+Test19 - Negative test for name field
+     Steps:
+       1. Find form for send contacts
+       2. input name ""
+       3. input e-mail "goloseliz@gmail.com"
+       4. input phone number "(000) 000-00-00"
+       5. click submit
